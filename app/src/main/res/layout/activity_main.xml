@@ -30,7 +30,7 @@
         android:layout_centerHorizontal="true" />
 
     <ImageButton
-        android:id="@+id/b_rock"
+        android:id="@+id/rock"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="fitXY"
@@ -41,42 +41,42 @@
         android:layout_marginTop="44dp" />
 
     <ImageButton
-        android:id="@+id/b_paper"
+        android:id="@+id/paper"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="fitXY"
         android:background="@drawable/paper_new"
-        android:layout_alignTop="@+id/b_rock"
+        android:layout_alignTop="@+id/rock"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
-        android:id="@+id/b_scissors"
+        android:id="@+id/scissors"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="fitXY"
         android:background="@drawable/scissors_new"
-        android:layout_alignTop="@+id/b_paper"
+        android:layout_alignTop="@+id/paper"
         android:layout_toRightOf="@+id/editText"
         android:layout_toEndOf="@+id/editText" />
 
     <ImageButton
-        android:id="@+id/b_lizard"
+        android:id="@+id/lizard"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="fitXY"
         android:background="@drawable/lizard_new"
-        android:layout_below="@+id/b_paper"
+        android:layout_below="@+id/paper"
         android:layout_marginTop="44dp"
         android:layout_marginLeft="160dp"/>
 
     <ImageButton
-        android:id="@+id/b_spock"
+        android:id="@+id/spock"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="fitXY"
         android:background="@drawable/spock_new"
-        android:layout_alignTop="@+id/b_lizard"
-        android:layout_toRightOf="@+id/b_lizard"
+        android:layout_alignTop="@+id/lizard"
+        android:layout_toRightOf="@+id/lizard"
         android:layout_marginLeft="44dp"/>
 
 
@@ -91,7 +91,7 @@
         android:text="Computer Choice:"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/b_spock"
+        android:layout_below="@+id/spock"
         android:paddingTop="50dp"/>
 
     <ImageView
